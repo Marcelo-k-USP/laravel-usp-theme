@@ -1,0 +1,31 @@
+@section('skin_styles')
+@parent {{-- devemos incluir o conteúdo existente --}}
+<style>
+    /* #skin_header é o div pai */
+    #skin_header  .container-fluid {
+        display: block;
+        height: 70px;
+        background-color: #FFFFFF;
+        font-size: 20px;
+    }
+
+    #skin_header .skin_logo img {
+        height: 50px;
+        margin: 10px;
+    }
+
+</style>
+@endsection
+
+@section('skin_header')
+<!-- container vai ocultar em mobile para ganhar espaço -->
+<div class="container-fluid d-none d-sm-block">
+    <div class="row">
+        <div class="col-md-12">
+            <a class="skin_logo" href="https://cepe.usp.br/">
+                <img src="{{ asset('/vendor/laravel-usp-theme/skins/cepeusp/images/cepe-logo.png') }}" alt="Logo do Centro de Práticas Esportivas da Universidade de São Paulo">
+            </a>
+        </div>
+    </div>
+</div>
+@endsection
