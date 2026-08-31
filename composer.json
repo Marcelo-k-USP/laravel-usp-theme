@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "uspdev/cadastros-auxiliares-client": "^1.0"
+        "uspdev/cadastros-auxiliares-client": "^1"
     },
     "extra": {
         "laravel": {
