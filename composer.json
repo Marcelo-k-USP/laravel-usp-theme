@@ -10,9 +10,6 @@
             "email": "thiago.verissimo@usp.br"
         }
     ],
-    "require": {
-        "uspdev/cadastros-auxiliares-client": "^1.0"
-    },
     "extra": {
         "laravel": {
             "providers": [
